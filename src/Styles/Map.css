@@ -1,0 +1,172 @@
+.map {
+  height: 100vh;
+  width: 100vw;
+}
+
+.search-container {
+  position: fixed;
+  top: 2rem;
+  left: 10rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  padding-top: 0.21rem;
+  z-index: 3;
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: calc(2.5rem / 2);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 10px #35353570;
+  transition: all 300ms ease-out;
+}
+
+.search-container-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  border: 0;
+}
+
+.search-input:focus {
+  outline: 0;
+}
+
+.search-icon {
+  height: 2rem;
+  width: 2rem;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Images/search.png");
+}
+
+.search-suggestions {
+  position: fixed;
+  top: 5rem;
+  border-radius: 0.5rem;
+  left: 10rem;
+  width: 20rem;
+  box-shadow: 0 4px 10px #35353570;
+  min-height: 2.54rem;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  z-index: 3;
+  transition: all 300ms ease-out;
+}
+
+.search-suggestions p {
+  font-size: 0.9rem;
+}
+
+.recent-searches:last-child {
+  margin-bottom: 0;
+}
+
+.recent-searches {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 0.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.map-with-routes {
+  width: 7rem;
+  height: 7rem;
+  position: fixed;
+  background-image: url("../Images/ROUTES/main-route.png");
+  background-position: center;
+  background-size: cover;
+  bottom: 4rem;
+  right: 2rem;
+  z-index: 4;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+}
+
+.--route-open {
+  top: calc(50% - 0.4rem);
+  left: calc(50% + 2.5rem);
+  transform: translate(-50%, -50%);
+  width: 78%;
+  height: 50rem;
+}
+
+.--building-clicked {
+  bottom: 7rem;
+}
+
+.--building-map-clicked {
+  transform: translate(-50%, -56%);
+}
+
+.aben-route {
+  background-image: url("../Images/ROUTES/aben-route.png");
+}
+
+.admin-route {
+  background-image: url("../Images/ROUTES/admin-route.png");
+}
+
+.anthony-route {
+  background-image: url("../Images/ROUTES/anthony-route.png");
+}
+
+.bona-route {
+  background-image: url("../Images/ROUTES/bona-route.png");
+}
+
+.chapel-route {
+  background-image: url("../Images/ROUTES/chapel-route.png");
+}
+
+.claire-route {
+  background-image: url("../Images/ROUTES/claire-route.png");
+}
+
+.court-route {
+  background-image: url("../Images/ROUTES/court-route.png");
+}
+
+.francis-route {
+  background-image: url("../Images/ROUTES/francis-route.png");
+}
+
+.jurgens-route {
+  background-image: url("../Images/ROUTES/jurgens-route.png");
+}
+
+.ver-route {
+  background-image: url("../Images/ROUTES/ver-route.png");
+}
+
+.mda-route {
+  background-image: url("../Images/ROUTES/mda-route.png");
+}
+
+.miert-route {
+  background-image: url("../Images/ROUTES/miert-route.png");
+}
+
+.open-field-route {
+  background-image: url("../Images/ROUTES/open-field-route.png");
+}
+
+.schutten-route {
+  background-image: url("../Images/ROUTES/schutten-route.png");
+}
+
+.sped-route {
+  background-image: url("../Images/ROUTES/sped-route.png");
+}
+
+.tummers-route {
+  background-image: url("../Images/ROUTES/tummers-route.png");
+}

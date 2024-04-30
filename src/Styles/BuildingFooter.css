@@ -1,0 +1,638 @@
+.building-footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-height: 25rem;
+  width: calc(100% - 5rem);
+  background-color: #4d4b4a;
+  padding: 1rem;
+  z-index: 5;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.sjo-footer {
+  max-height: none;
+  min-height: 2rem;
+}
+
+.--stjoseph {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0;
+  padding-top: 1.5rem;
+  gap: 1.5rem;
+}
+
+.st-joseph-info {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+}
+
+.st-joseph-left-container,
+.st-joseph-right-container {
+  height: 100%;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 1rem;
+}
+
+.st-joseph-left-container {
+  border-top-left-radius: 1rem;
+  width: 47%;
+  padding-bottom: 0;
+  background-color: #fff;
+}
+
+.st-joseph-right-container {
+  border-top-right-radius: 1rem;
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #b4bfcd;
+}
+
+.contacts-container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.487);
+  padding: 0.7rem 1rem;
+}
+
+.--contact-head {
+  text-align: center;
+}
+
+.contacts-container:last-child {
+  border-bottom: 0;
+}
+
+.footer-head {
+  background-color: #fff;
+  line-height: 3.5rem;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+  text-align: center;
+  /* margin-bottom: 1.5rem; */
+  /* display: flex; */
+  justify-content: center;
+}
+
+.building-images {
+  width: 100%;
+  height: 17rem;
+  margin-top: 1.5rem;
+  text-align: center; /* Center the images horizontally */
+  white-space: nowrap; /* Ensure that the images stay in a single row */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden;
+}
+
+.building-images > div {
+  display: inline-block; /* Ensure images are inline-block elements */
+  width: 25rem; /* Adjust the width of each image */
+  height: 17rem;
+  background-color: #232323;
+  border-radius: 0.5rem;
+  background-position: center;
+  background-size: cover;
+  margin-right: 1rem; /* Adjust the margin between images */
+}
+
+.building-rooms-info {
+  min-height: 15rem;
+  width: 100%;
+  /* background-color: antiquewhite; */
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  gap: 2rem;
+}
+
+.building-rooms {
+  width: 76rem;
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+.room {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.building-sign {
+  width: 34.5rem;
+  height: 20rem;
+  background-color: #232323;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../Images/caution.png");
+  border-radius: 3rem;
+}
+
+.open-footer {
+  position: fixed;
+  width: 25rem;
+  text-align: center;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  bottom: calc(33rem - 8rem);
+  left: calc(3rem + 50%);
+  transform: translateX(-50%);
+  color: white;
+  background-color: #4d4b4a;
+  box-shadow: 0px -7px 5px #2323233d;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.save-icon {
+  position: absolute;
+  width: 1.8rem;
+  height: 1.8rem;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("../Images/save.png");
+  background-size: cover;
+}
+
+.saved {
+  background-image: url("../Images/save-done.png");
+}
+
+/* francis */
+.francis1 {
+  background-image: url("../Images/Francis/FRANCIS.jpg");
+}
+
+/* MDA */
+.mda1 {
+  background-image: url("../Images/MDA/MDA1.JPG");
+}
+
+.mda2 {
+  background-image: url("../Images/MDA/MDA2.JPG");
+}
+
+.mda3 {
+  background-image: url("../Images/MDA/MDA3.JPG");
+}
+
+.mda4 {
+  background-image: url("../Images/MDA/MDA4.JPG");
+}
+
+.mda5 {
+  background-image: url("../Images/MDA/MDA5.JPG");
+}
+
+.mda6 {
+  background-image: url("../Images/MDA/MDA6.JPG");
+}
+
+.mda7 {
+  background-image: url("../Images/MDA/MDA7.JPG");
+}
+
+.mda8 {
+  background-image: url("../Images/MDA/MDA8.JPG");
+}
+
+.mda9 {
+  background-image: url("../Images/MDA/MDA9.JPG");
+}
+
+/* bonaventure */
+.bona1 {
+  background-image: url("../Images/Bonaventure/BONA1.JPG");
+}
+
+.bona2 {
+  background-image: url("../Images/Bonaventure/BONA2.JPG");
+}
+
+.bona3 {
+  background-image: url("../Images/Bonaventure/BONA3.JPG");
+}
+
+.bona4 {
+  background-image: url("../Images/Bonaventure/BONA4.JPG");
+}
+
+.bona5 {
+  background-image: url("../Images/Bonaventure/BONA5.JPG");
+}
+
+.bona6 {
+  background-image: url("../Images/Bonaventure/BONA6.JPG");
+}
+
+/* miert */
+.miert1 {
+  background-image: url("../Images/VanMiert/miert1.JPG");
+}
+
+.miert2 {
+  background-image: url("../Images/VanMiert/miert2.JPG");
+}
+
+.miert3 {
+  background-image: url("../Images/VanMiert/miert3.JPG");
+}
+
+/* schutten */
+.schutten1 {
+  background-image: url("../Images/Schutten/SCHUTTEN1.JPG");
+}
+
+.schutten2 {
+  background-image: url("../Images/Schutten/SCHUTTEN2.JPG");
+}
+
+.schutten3 {
+  background-image: url("../Images/Schutten/SCHUTTEN3.JPG");
+}
+
+.schutten4 {
+  background-image: url("../Images/Schutten/SCHUTTEN4.JPG");
+}
+
+.schutten5 {
+  background-image: url("../Images/Schutten/SCHUTTEN5.JPG");
+}
+
+.schutten6 {
+  background-image: url("../Images/Schutten/SCHUTTEN6.JPG");
+}
+
+.schutten7 {
+  background-image: url("../Images/Schutten/SCHUTTEN7.JPG");
+}
+
+.schutten8 {
+  background-image: url("../Images/Schutten/SCHUTTEN8.JPG");
+}
+
+.schutten9 {
+  background-image: url("../Images/Schutten/SCHUTTEN9.JPG");
+}
+
+.schutten10 {
+  background-image: url("../Images/Schutten/SCHUTTEN10.JPG");
+}
+
+.schutten11 {
+  background-image: url("../Images/Schutten/SCHUTTEN11.JPG");
+}
+
+.schutten12 {
+  background-image: url("../Images/Schutten/SCHUTTEN12.JPG");
+}
+
+/* covered court */
+.court1 {
+  background-image: url("../Images/CoveredCourt/COURT1.JPG");
+}
+
+.court2 {
+  background-image: url("../Images/CoveredCourt/COURT2.JPG");
+}
+
+.court3 {
+  background-image: url("../Images/CoveredCourt/COURT3.JPG");
+}
+
+/* aben */
+.aben1 {
+  background-image: url("../Images/Aben/aben1.JPG");
+}
+
+.aben2 {
+  background-image: url("../Images/Aben/ABEN2.JPG");
+}
+
+.aben3 {
+  background-image: url("../Images/Aben/ABEN3.JPG");
+}
+
+.aben4 {
+  background-image: url("../Images/Aben/ABEN4.JPG");
+}
+
+.aben5 {
+  background-image: url("../Images/Aben/ABEN5.JPG");
+}
+
+.aben6 {
+  background-image: url("../Images/Aben/ABEN6.JPG");
+}
+
+.aben7 {
+  background-image: url("../Images/Aben/ABEN7.JPG");
+}
+
+.aben8 {
+  background-image: url("../Images/Aben/ABEN8.JPG");
+}
+
+.aben9 {
+  background-image: url("../Images/Aben/ABEN9.JPG");
+}
+
+.aben10 {
+  background-image: url("../Images/Aben/ABEN10.JPG");
+}
+
+.aben11 {
+  background-image: url("../Images/Aben/ABEN11.JPG");
+}
+
+/* claire */
+.claire1 {
+  background-image: url("../Images/Claire/CLAIRE1.JPG");
+}
+
+.claire2 {
+  background-image: url("../Images/Claire/CLAIRE2.JPG");
+}
+
+.claire3 {
+  background-image: url("../Images/Claire/CLAIRE3.JPG");
+}
+
+.claire4 {
+  background-image: url("../Images/Claire/CLAIRE4.JPG");
+}
+
+.claire5 {
+  background-image: url("../Images/Claire/CLAIRE5.JPG");
+}
+
+.claire6 {
+  background-image: url("../Images/Claire/CLAIRE6.JPG");
+}
+
+.claire7 {
+  background-image: url("../Images/Claire/CLAIRE7.JPG");
+}
+
+.claire8 {
+  background-image: url("../Images/Claire/CLAIRE8.JPG");
+}
+
+.claire9 {
+  background-image: url("../Images/Claire/CLAIRE9.JPG");
+}
+
+.claire10 {
+  background-image: url("../Images/Claire/CLAIRE10.JPG");
+}
+
+.claire11 {
+  background-image: url("../Images/Claire/CLAIRE11.JPG");
+}
+
+.claire12 {
+  background-image: url("../Images/Claire/CLAIRE12.JPG");
+}
+
+.claire13 {
+  background-image: url("../Images/Claire/CLAIRE13.JPG");
+}
+
+.claire14 {
+  background-image: url("../Images/Claire/CLAIRE14.JPG");
+}
+
+.claire15 {
+  background-image: url("../Images/Claire/CLAIRE15.JPG");
+}
+
+.claire16 {
+  background-image: url("../Images/Claire/CLAIRE16.JPG");
+}
+
+/* jurgen */
+.jurgen1 {
+  background-image: url("../Images/Jurgens/JURGENS1.JPG");
+}
+
+.jurgen2 {
+  background-image: url("../Images/Jurgens/JURGENS2.JPG");
+}
+
+.jurgen3 {
+  background-image: url("../Images/Jurgens/JURGENS3.JPG");
+}
+
+/* verhuizen  */
+.ver1 {
+  background-image: url("../Images/Verhuizen/ver1.JPG");
+}
+
+.ver2 {
+  background-image: url("../Images/Verhuizen/ver2.JPG");
+}
+
+.ver3 {
+  background-image: url("../Images/Verhuizen/ver3.JPG");
+}
+
+.ver4 {
+  background-image: url("../Images/Verhuizen/ver4.JPG");
+}
+
+.ver5 {
+  background-image: url("../Images/Verhuizen/ver5.JPG");
+}
+
+.ver6 {
+  background-image: url("../Images/Verhuizen/ver6.JPG");
+}
+
+/* tummers */
+.tummers1 {
+  background-image: url("../Images/Tummers/TUMMER1.JPG");
+}
+
+.tummers2 {
+  background-image: url("../Images/Tummers/TUMMER2.JPG");
+}
+
+.tummers3 {
+  background-image: url("../Images/Tummers/TUMMERS3.JPG");
+}
+
+.tummers4 {
+  background-image: url("../Images/Tummers/TUMMERS4.JPG");
+}
+
+.tummers5 {
+  background-image: url("../Images/Tummers/TUMMERS5.JPG");
+}
+
+.tummers6 {
+  background-image: url("../Images/Tummers/TUMMERS6.JPG");
+}
+
+.tummers7 {
+  background-image: url("../Images/Tummers/TUMMERS7.JPG");
+}
+
+/* chapel */
+.chapel1 {
+  background-image: url("../Images/Chapel/CHAPEL1.JPG");
+}
+
+.chapel2 {
+  background-image: url("../Images/Chapel/CHAPEL2.JPG");
+}
+
+.chapel3 {
+  background-image: url("../Images/Chapel/CHAPEL3.JPG");
+}
+
+.chapel4 {
+  background-image: url("../Images/Chapel/CHAPEL4.JPG");
+}
+
+/* st anthony */
+.ant1 {
+  background-image: url("../Images/Anthony/ANTHONY1.JPG");
+}
+
+.ant2 {
+  background-image: url("../Images/Anthony/ANTHONY2.JPG");
+}
+
+.ant3 {
+  background-image: url("../Images/Anthony/ANTHONY3.JPG");
+}
+
+.ant4 {
+  background-image: url("../Images/Anthony/ANTHONY4.JPG");
+}
+
+.ant5 {
+  background-image: url("../Images/Anthony/ANTHONY5.JPG");
+}
+
+/* sped */
+.sped1 {
+  background-image: url("../Images/Special/SPED1.JPG");
+}
+
+.sped2 {
+  background-image: url("../Images/Special/SPED2.JPG");
+}
+
+.sped3 {
+  background-image: url("../Images/Special/SPED3.JPG");
+}
+
+.sped4 {
+  background-image: url("../Images/Special/SPED4.JPG");
+}
+
+/* admin */
+.admin1 {
+  background-image: url("../Images/Admin/ADMIN1.JPG");
+}
+
+.admin2 {
+  background-image: url("../Images/Admin/ADMIN2.JPG");
+}
+
+.openfield1 {
+  background-image: url("../Images/OpenField/OF1.JPG");
+}
+
+.openfield2 {
+  background-image: url("../Images/OpenField/OF2.JPG");
+}
+
+/* building rooms */
+.admin-room {
+  background-image: url("../Images/BuildingFloors/ADMINISTRATION/admin-room.png");
+  height: 20.3rem;
+}
+
+.bona-room {
+  background-image: url("../Images/BuildingFloors/ST.BONAVENTURE/bona-room.png");
+  height: 34rem;
+}
+
+.mda-room {
+  background-image: url("../Images/BuildingFloors/MDA/mda-room.png");
+  height: 52rem;
+}
+
+.sped-room {
+  background-image: url("../Images/BuildingFloors/SPED/sped-room.png");
+  height: 23rem;
+}
+
+.claire-room {
+  background-image: url("../Images/BuildingFloors/ST.CLAIRE/claire-room.png");
+  height: 100rem;
+}
+
+.anthony-room {
+  background-image: url("../Images/BuildingFloors/ST.ANTHONY/anthony-room.png");
+  height: 20rem;
+}
+
+.tummers-room {
+  background-image: url("../Images/BuildingFloors/TUMMERS/tummers-room.png");
+  height: 39rem;
+}
+
+.schutten-room {
+  background-image: url("../Images/BuildingFloors/SCHUTTEN/schutten-room.png");
+  height: 45rem;
+}
+
+.miert-room {
+  background-image: url("../Images/BuildingFloors/T.VANMIERT/miert-room.png");
+  height: 33rem;
+}
+
+.court-room {
+  background-image: url("../Images/BuildingFloors/COVEREDCOURT/court-room.png");
+  height: 11rem;
+}
+
+.aben-room {
+  background-image: url("../Images/BuildingFloors/W.ABEN/aben-room.png");
+  height: 85rem;
+}
+
+.openfield-room {
+  background-image: url("../Images/BuildingFloors/OPENFIELD/openfield-room.png");
+  height: 13rem;
+}
+
+.facade1 {
+  background-image: url("../Images/FACADE1.jpg");
+}
+
+.facade2 {
+  background-image: url("../Images/FACADE2.jpg");
+}
+
+.facade3 {
+  background-image: url("../Images/FACADE3.jpg");
+}
+
+.panorama {
+  margin-right: 1rem;
+  width: 25rem;
+  height: 17rem;
+  border-radius: 0.5rem;
+  border: none;
+}
