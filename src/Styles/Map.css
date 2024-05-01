@@ -95,8 +95,8 @@
   top: calc(50% - 0.4rem);
   left: calc(50% + 2.5rem);
   transform: translate(-50%, -50%);
-  width: 78%;
-  height: 50rem;
+  width: 85rem;
+  height: 47rem;
 }
 
 .--building-clicked {
