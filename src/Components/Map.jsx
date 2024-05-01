@@ -273,7 +273,7 @@ function Map({ isOpen, savedMapData, isFooterOpen, onToggleFooter }) {
           tempBuildingId === 2 && "mda-route"
         } ${tempBuildingId === 3 && "bona-route"} ${
           tempBuildingId === 4 && "miert-route"
-        } ${tempBuildingId === 5 && "schutter-route"} ${
+        } ${tempBuildingId === 5 && "schutten-route"} ${
           tempBuildingId === 6 && "court-route"
         } ${tempBuildingId === 7 && "aben-route"} ${
           tempBuildingId === 8 && "claire-route"
