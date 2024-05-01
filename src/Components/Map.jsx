@@ -196,6 +196,7 @@ function Map({ isOpen, savedMapData, isFooterOpen, onToggleFooter }) {
     console.log(tempBuildingId);
     setCenter(markerPosition);
     setIsBuildingRouteOpen(true);
+
     // setIsFooterOpen(true);
   };
 
@@ -207,6 +208,7 @@ function Map({ isOpen, savedMapData, isFooterOpen, onToggleFooter }) {
 
     setTempBuildingId(searchTerm.id);
     setIsBuildingRouteOpen(true);
+    setIsBuildingClicked(true);
     const savedSearches =
       JSON.parse(localStorage.getItem("savedSearches")) || [];
 

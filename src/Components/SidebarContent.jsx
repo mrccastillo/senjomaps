@@ -5,14 +5,13 @@ function SidebarContent({ setSavedMap }) {
   const [isSavedPlaceOpen, setIsSavedPlaceOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
   const [isInfoOpen, setIsInfoOpen] = useState(false);
-  const [isSjoOpen, setIsSjoOpen] = useState(true);
+  // const [isSjoOpen, setIsSjoOpen] = useState(true);
 
   const savedSearches = JSON.parse(localStorage.getItem("savedSearches")) || [];
   const savedPlaces = JSON.parse(localStorage.getItem("savedPlaces")) || [];
 
   // Check if any sidebar content is open
-  const isSidebarContentOpen =
-    isRecentOpen || isSavedPlaceOpen || isAboutOpen || isInfoOpen;
+  const isSidebarContentOpen = isAboutOpen;
 
   return (
     <div className="sidebar-content">
@@ -173,7 +172,11 @@ function SidebarContent({ setSavedMap }) {
       {!isSidebarContentOpen && (
         <div
           className="sjo-logo"
-          style={{ marginTop: "8rem", width: "15rem", height: "15rem" }}
+          style={{
+            width: "15rem",
+            height: "15rem",
+            marginTop: isRecentOpen || isSavedPlaceOpen ? "2rem" : "8rem",
+          }}
         ></div>
       )}
       <div

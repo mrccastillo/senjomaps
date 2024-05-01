@@ -67,3 +67,9 @@ h6 {
     font-size: 12px;
   }
 }
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 11px;
+  }
+}

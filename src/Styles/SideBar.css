@@ -61,6 +61,7 @@
   background-color: #222126;
   width: 100%;
   min-height: 4rem;
+
   border-radius: 0.3rem;
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
@@ -84,6 +85,8 @@
   transform: translateY(-1rem);
   /* min-height: 5rem;
   max-height: 30rem; */
+
+  overflow-y: scroll;
   width: calc(100% - 2rem);
   padding: 1rem;
   background-color: #737373;
@@ -97,6 +100,7 @@
 
 .recent-search-container,
 .savedplaces-container {
+  max-height: 18rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -122,6 +126,7 @@
 }
 
 .info-content {
+  width: 23rem;
   background-color: white;
   color: black;
   padding: 1rem;
@@ -129,8 +134,9 @@
   border-radius: 1rem;
   font-size: 0.85rem;
   position: fixed;
-  bottom: 3rem;
-  left: 5rem;
+  bottom: 4rem;
+  left: 1rem;
+  font-size: 1rem;
 }
 
 .senjo-logo {

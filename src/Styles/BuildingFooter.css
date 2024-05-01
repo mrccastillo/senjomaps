@@ -159,6 +159,7 @@
   transform: translateY(-50%);
   background-image: url("../Images/save.png");
   background-size: cover;
+  cursor: pointer;
 }
 
 .saved {
@@ -577,9 +578,14 @@
   height: 23rem;
 }
 
-.claire-room {
-  background-image: url("../Images/BuildingFloors/ST.CLAIRE/claire-room.png");
-  height: 100rem;
+.claire-room1 {
+  background-image: url("../Images/BuildingFloors/ST.CLAIRE/claire-room1.png");
+  height: 38rem;
+}
+
+.claire-room2 {
+  background-image: url("../Images/BuildingFloors/ST.CLAIRE/claire-room2.png");
+  height: 62rem;
 }
 
 .anthony-room {
@@ -595,6 +601,11 @@
 .schutten-room {
   background-image: url("../Images/BuildingFloors/SCHUTTEN/schutten-room.png");
   height: 45rem;
+}
+
+.ver-room {
+  background-image: url("../Images/BuildingFloors/M.VERHUIZEN/ver-room.png");
+  height: 50rem;
 }
 
 .miert-room {
@@ -635,4 +646,13 @@
   height: 17rem;
   border-radius: 0.5rem;
   border: none;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
